@@ -118,7 +118,7 @@ Here's the prompt in action, guiding the AI through a task:
 *Ma man done playing*
 
 ![Example 5: AI Handling User Feedback/Output](img/5.gif)
-
+<br>
 *Result, So Dumb!*
 
 
