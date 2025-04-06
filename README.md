@@ -38,7 +38,6 @@ For the first time, **YOU get to be the dumb guy** (or gal!) and offload the thi
 *   **Structured Guidance:** Forces the AI into a strict `PLAN` -> `CONFIRM` -> `SUMMARIZE` -> `ACT` workflow.
 *   **User-Controlled Execution:** The AI *tells* you what to do; *you* run the commands. Safety first!
 *   **Chat Formats:** Standardized instructions for running commands, editing files, providing context, etc.
-*   **Easier edit:**   c. So you don't have fry your brain line by line editing. 
 *   **Easier Edits:** It'll give you *entire code blocks* (functions, classes, even files!) instead of tedious line-by-line changes. **Less brain-frying for you!**
 *   **Expert Mode:** Use the `--expert` flag to inject specific goals or tech stack focus into the prompt.
 *   **Cross-Platform:** Run it with Python (recommended!), Bash/Zsh, or PowerShell.
