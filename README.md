@@ -101,9 +101,29 @@ $scriptBytes = irm "https://raw.githubusercontent.com/JonyBepary/SlapAgent/src/m
 
 ## 👀 Look at this Baby Slapping Sense into Gemini!
 
-**(Placeholder: Add an awesome screenshot or GIF here!)**
+Here's the prompt in action, guiding the AI through a task:
 
-`[Image/GIF: Show a chat interface where the AI, using the generated prompt, is correctly guiding the user with OS-specific commands and following the PLAN/ACT model]`
+![Example 1: AI Planning Phase](img/11.jpeg)
+*Slaping plan mode and give a prompt for dumb app*
+
+![Example 2: AI Requesting Command Execution](img/22.jpeg)
+*Ma boy Slapping and gave me plan and i just gave my choice*
+
+![Example 3: AI Providing Code Block Replacement](img/33.jpeg)
+*It's implementing and guiding to setup the project*
+
+
+![Example 5: AI Handling User Feedback/Output](img/break.jpg)
+*AI was giving i was pasting*
+
+![Example 5: AI Handling User Feedback/Output](img/44.jpeg)
+*Ma man done playing*
+
+<img src="img/5.gif" alt="Example 5: AI Handling User Feedback/Output" style="width:100%; height:auto;" />
+
+<h1 style="text-align:center;">Result, So Dumb!</h1>
+
+
 
 ---
 
