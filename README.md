@@ -82,9 +82,6 @@ Don't want to clone? Live dangerously!
 ```bash
 # Default (Replace URL!)
 curl -sSL "https://raw.githubusercontent.com/JonyBepary/SlapAgent/refs/heads/main/src/slap.sh" | bash
-
-# Expert (Replace URL!)
-curl -sSL "https://raw.githubusercontent.com/JonyBepary/SlapAgent/refs/heads/main/src/slap.sh" | bash -s -- --expert
 ```
 
 ### 2. Windows (PowerShell)
@@ -92,9 +89,6 @@ curl -sSL "https://raw.githubusercontent.com/JonyBepary/SlapAgent/refs/heads/mai
 ```powershell
 # Default (Replace URL!)
 iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/JonyBepary/SlapAgent/raw/refs/heads/main/src/slap.ps1'))
-
-# Expert (Replace URL! More complex due to flag)
-$scriptBytes = irm "https://github.com/JonyBepary/SlapAgent/raw/refs/heads/main/src/slap.ps1" -UseBasicParsing; $tempScript = New-TemporaryFile -Extension ps1; Set-Content -Path $tempScript.FullName -Value $scriptBytes -AsByteStream; & $tempScript.FullName -Expert; Remove-Item $tempScript.FullName -Force
 ```
 
 ---
