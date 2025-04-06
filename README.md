@@ -91,7 +91,7 @@ curl -sSL "https://raw.githubusercontent.com/JonyBepary/SlapAgent/refs/heads/mai
 
 ```powershell
 # Default (Replace URL!)
-irm "https://github.com/JonyBepary/SlapAgent/raw/refs/heads/main/src/slap.ps1" | iex
+iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/JonyBepary/SlapAgent/raw/refs/heads/main/src/slap.ps1'))
 
 # Expert (Replace URL! More complex due to flag)
 $scriptBytes = irm "https://github.com/JonyBepary/SlapAgent/raw/refs/heads/main/src/slap.ps1" -UseBasicParsing; $tempScript = New-TemporaryFile -Extension ps1; Set-Content -Path $tempScript.FullName -Value $scriptBytes -AsByteStream; & $tempScript.FullName -Expert; Remove-Item $tempScript.FullName -Force
@@ -114,15 +114,17 @@ Here's the prompt in action, guiding the AI through a task:
 
 
 ![Example 5: AI Handling User Feedback/Output](img/break.jpg)
+
 *AI was giving i was pasting*
 
 ![Example 5: AI Handling User Feedback/Output](img/44.jpeg)
 *Ma man done playing*
 
-<img src="img/5.gif" alt="Example 5: AI Handling User Feedback/Output" style="width:100%; height:auto;" />
+![Example 5: AI Handling User Feedback/Output](img/44.jpeg)
+*Ma man done playing*
 
-<h1 style="text-align:center;">Result, So Dumb!</h1>
-
+![Example 5: AI Handling User Feedback/Output](img/5.gif)
+*Result, So Dumb!*
 
 
 ---
